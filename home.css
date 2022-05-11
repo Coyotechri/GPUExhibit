@@ -1,0 +1,93 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ }
+
+#main_container{
+  background-color:#FFFFFF;
+  max-width:1400px;
+
+  }
+
+#GPU_1_column{
+  background-color:#FFFFFF;
+  width:94%;
+  margin-left:3%;
+  }
+
+#GPU_2_column{
+  background-color:#FFFFFF;
+  width:94%;
+  margin-left:3%;
+  }
+
+#cGPU_3_column{
+  background-color:#FFFFFF;
+  width:94%;
+  margin-left:3%;
+  }
+#cGPU_4_column{
+  background-color:#FFFFFF;
+  width:94%;
+  margin-left:3%;
+  }
+#cGPU_5_column{
+  background-color:#FFFFFF;
+  width:94%;
+  margin-left:3%;
+  }
+img{
+    width:100%;
+    }
+@media (min-width: 690px) {
+ #main_container{
+  overflow:hidden;
+  }
+
+ #GPU_1_column{
+  float:left;
+  }
+
+ #GPU_2_column{
+  width:46%;
+  clear:left;
+  float:left;
+  }
+  
+ #GPU_3_column{
+  width:46%;
+  margin-left:2%;
+  float:left;
+  }
+ #GPU_4_column{
+  width:46%;
+  margin-left:2%;
+  float:left;
+  }
+ #GPU_5_column{
+  width:46%;
+  margin-left:2%;
+  float:left;
+  }
+}
+@media (min-width: 1015px) {
+  #intro_column{
+    width:30%;
+    }
+
+  #GPU_2_column{
+    width:30%;
+    clear:none;
+    margin-left: 2%;
+    }
+
+  #GPU_3_column{
+    width:30%;
+    }
+  #GPU_4_column{
+    width:30%;
+    }
+  #GPU_5_column{
+    width:30%;
+    }
+}
