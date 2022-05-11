@@ -26,19 +26,23 @@
   width:94%;
   margin-left:3%;
   }
+
 #cGPU_4_column{
   background-color:#FFFFFF;
   width:94%;
   margin-left:3%;
   }
+
 #cGPU_5_column{
   background-color:#FFFFFF;
   width:94%;
   margin-left:3%;
   }
+
 img{
     width:100%;
     }
+
 @media (min-width: 690px) {
  #main_container{
   overflow:hidden;
@@ -59,17 +63,20 @@ img{
   margin-left:2%;
   float:left;
   }
+ 
  #GPU_4_column{
   width:46%;
   margin-left:2%;
   float:left;
   }
+ 
  #GPU_5_column{
   width:46%;
   margin-left:2%;
   float:left;
   }
 }
+
 @media (min-width: 1015px) {
   #intro_column{
     width:30%;
@@ -84,9 +91,11 @@ img{
   #GPU_3_column{
     width:30%;
     }
+ 
   #GPU_4_column{
     width:30%;
     }
+ 
   #GPU_5_column{
     width:30%;
     }
